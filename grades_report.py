@@ -26,3 +26,5 @@ print()
 # The student with the highest average score.
 top_student = average_by_student.idxmax()
 print("Top student:", top_student)
+
+print("Good bye!")
