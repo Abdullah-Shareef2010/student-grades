@@ -27,4 +27,10 @@ print()
 top_student = average_by_student.idxmax()
 print("Top student:", top_student)
 
+# The average score for each subject.
+print("Average score by subject:")
+average_by_subject = grades.groupby("subject")["score"].mean()
+print(average_by_subject)
+print()
+
 print("Good bye!")
