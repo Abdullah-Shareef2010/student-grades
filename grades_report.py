@@ -5,7 +5,7 @@
 import pandas as pd
 
 # Load the grades from the CSV file.
-grades = pd.read_csv(r"C:\Users\Abdul\Abdullah\Programming\Python projects\.py\DECI projects\student-grades (version control by git)\grades.csv")
+grades = pd.read_csv(r"C:\Users\Abdul\Abdullah\Programming\Python projects\.py\DECI projects\student-grades git try\grades.csv")
 
 # Show the first few rows so we can see what the data looks like.
 print("First rows of the grades:")
